@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="myNetwork">My professional network</string>
+    <string name="addContact">Add new contact</string>
+    <string name="updateContact">Update contact</string>
+</resources>

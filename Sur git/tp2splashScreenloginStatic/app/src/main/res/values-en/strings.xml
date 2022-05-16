@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome back!</string>
+    <string name="textview"></string>
+    <string name="emptyvalues">Email and password can not be empty</string>
+</resources>

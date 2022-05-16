@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">تطبيق</string>
+    <string name="LOGIN">تسجيل الدخول</string>
+    <string name="login_email_hint">البريد الالكتروني</string>
+    <string name="login_password_hint">الرقم السري</string>
+    <string name="login">دخول</string>
+    <string name="logout">خروج</string>
+    <string name="welcome">مرحبا بك مجددا!</string>
+    <string name="textview"></string>
+    <string name="emptyvalues">قم بملء البريد الالكتروني والرقم السري</string>
+</resources>

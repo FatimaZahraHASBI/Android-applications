@@ -1,0 +1,61 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Achraf Hasbi",
+      "photo": "photo1.png",
+      "job": "Systems Architect",
+      "email": "h.achraf@gmail.com",
+      "phone": "0628294375"
+    },
+    {
+      "id": 2,
+      "name": "Sara El Amrani",
+      "photo": "photo2.png",
+      "job": "Sales Engineer",
+      "email": "s.elamrani@gmail.com",
+      "phone": "0661568712"
+    },
+    {
+      "id": 3,
+      "name": "Mobtassim Mobtassim",
+      "photo": "photo3.png",
+      "job": "Mobile Developer",
+      "email": "r.mobtassim@gmail.com",
+      "phone": "0618312546"
+    },
+    {
+      "id": 4,
+      "name": "Majida Khalil",
+      "photo": "photo4.png",
+      "job": "Devops Engineer",
+      "email": "m.khalil@gmail.com",
+      "phone": "0618654532"
+    },
+    {
+      "id": 5,
+      "name": "Hamza Dadda",
+      "photo": "photo5.png",
+      "job": "Data Engineer",
+      "email": "d.hamza@gmail.com",
+      "phone": "0617656538"
+    },
+    {
+      "id": 6,
+      "name": "Salma Semlali",
+      "photo": "photo6.png",
+      "job": "Project Manager",
+      "email": "s.semlali@gmail.com",
+      "phone": "0678654459"
+    },
+    {
+      "id": 7,
+      "name": "Halima Hasbi",
+      "photo": "photo7.png",
+      "job": "Project Manager",
+      "email": "h.halima@gmail.com",
+      "phone": "0678654459"
+    }
+  ]
+}
+

@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/sync_title"/>
+
+        <SwitchPreferenceCompat
+            app:key="attachment"
+            app:title="@string/attachment_title"
+            app:summaryOn="@string/attachment_summary_on"
+            app:summaryOff="@string/attachment_summary_off"
+            app:dependency="sync"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Paramètres de préférences">
+        <CheckBoxPreference
+            app:defaultValue="true"
+            app:key="veille"
+            app:title="Mise en veille"
+            app:summary="Mettre le téléphone en veille"/>
+        <ListPreference
+            app:defaultValue="20"
+            app:entries="@array/updateInterval"
+            app:entryValues="@array/updateIntervalValues"
+            app:key="veille_intervale"
+            app:title="la durée de la mise en veille"
+            app:dependency="veille"
+            app:summary="Déterminer la durrée après laquelle l'appareil se mettra en veille"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Information personnelle">
+        <EditTextPreference
+            app:defaultValue=""
+            app:key="full_name"
+            app:singleLine="true"
+            app:title="Nom complet"
+            app:dialogTitle="Entrez votre nom complet"
+            app:dialogMessage="Entrez votre nom complet svp"
+
+            app:summary="Entrez votre nom complet qui sera utilisé dans l'application"
+        />
+        <EditTextPreference
+            app:defaultValue=""
+            app:key="email_address"
+            app:singleLine="true"
+            app:title="Adresse email"
+            app:dialogTitle="Entrez votre adresses email"
+            app:dialogMessage="Entrez votre adresse email"
+            app:summary="Entrez votre adresse email institutionnelle"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Thème et mode">
+
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="switch_preference_1"
+            app:title="mode nuit" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
